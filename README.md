@@ -51,89 +51,89 @@ Server runs at http://localhost:5050
 ### 1. Create Product
 `POST /api/products`
 
-![Create Product](screenshots/01-create-product.png)
+![Create Product](screenshots/1.png)
 
 ### 2. Get All Products
 `GET /api/products`
 
-![Get All Products](screenshots/02-get-all-products.png)
+![Get All Products](screenshots/2.png)
 
 ### 3. Get Product by ID
 `GET /api/products/:id`
 
-![Get Product by ID](screenshots/03-get-product-by-id.png)
+![Get Product by ID](screenshots/3.png)
 
 ### 4. Update Product
 `PUT /api/products/:id`
 
-![Update Product](screenshots/04-update-product.png)
+![Update Product](screenshots/4.png)
 
 ### 5. Delete Product
 `DELETE /api/products/:id`
 
-![Delete Product](screenshots/05-delete-product.png)
+![Delete Product](screenshots/5.png)
 
 ### 6. Filter by Category + Sort by Price
 `GET /api/products?category=Electronics&sort=-price`
 
-![Filter by Category + Sort by Price](screenshots/06-filter-category-sort.png)
+![Filter by Category + Sort by Price](screenshots/6.png)
 
 ### 7. Price Range
 `GET /api/products?minPrice=500&maxPrice=3000&sort=price`
 
-![Price Range](screenshots/07-price-range.png)
+![Price Range](screenshots/7.png)
 
 ### 8. Search
 `GET /api/products?search=chair`
 
-![Search](screenshots/08-search.png)
+![Search](screenshots/8.png)
 
 ### 9. Pagination
 `GET /api/products?page=2&limit=5`
 
-![Pagination](screenshots/09-pagination.png)
+![Pagination](screenshots/9.png)
 
 ### 10. Restock (+20)
 `PATCH /api/products/:id/stock`
 
-![Restock (+20)](screenshots/10-restock.png)
+![Restock (+20)](screenshots/10.png)
 
 ### 11. Sale (-15)
 `PATCH /api/products/:id/stock`
 
-![Sale (-15)](screenshots/11-sale.png)
+![Sale (-15)](screenshots/11.png)
 
 ### 12. Not Enough Stock (error)
 `PATCH /api/products/:id/stock`
 
-![Not Enough Stock (error)](screenshots/12-oversell-error.png)
+![Not Enough Stock (error)](screenshots/12.png)
 
 ### 13. Low Stock Report
 `GET /api/products/low-stock`
 
-![Low Stock Report](screenshots/13-low-stock.png)
+![Low Stock Report](screenshots/13.png)
 
 ### 14. Category Summary (aggregation)
 `GET /api/products/summary`
 
-![Category Summary (aggregation)](screenshots/14-category-summary.png)
+![Category Summary (aggregation)](screenshots/14.png)
 
 ### 15. Validation Error
 `POST /api/products`
 
-![Validation Error](screenshots/15-validation-error.png)
+![Validation Error](screenshots/15.png)
 
 ### 16. Duplicate SKU
 `POST /api/products`
 
-![Duplicate SKU](screenshots/16-duplicate-sku.png)
+![Duplicate SKU](screenshots/16.png)
 
 ### 17. Invalid ID
 `GET /api/products/123`
 
-![Invalid ID](screenshots/17-invalid-id.png)
+![Invalid ID](screenshots/17.png)
 
 ### 18. Product Not Found
 `GET /api/products/64b000000000000000000000`
 
-![Product Not Found](screenshots/18-product-not-found.png)
+![Product Not Found](screenshots/18.png)
